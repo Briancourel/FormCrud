@@ -1,0 +1,10 @@
+C:\Users\idra14\source\repos\mvc\mvc\obj\Debug\mvc.csproj.AssemblyReference.cache
+C:\Users\idra14\source\repos\mvc\mvc\obj\Debug\mvc.Properties.Resources.resources
+C:\Users\idra14\source\repos\mvc\mvc\obj\Debug\Views.ProductForm.resources
+C:\Users\idra14\source\repos\mvc\mvc\obj\Debug\mvc.csproj.GenerateResource.cache
+C:\Users\idra14\source\repos\mvc\mvc\obj\Debug\mvc.csproj.CoreCompileInputs.cache
+C:\Users\idra14\source\repos\mvc\mvc\bin\Debug\mvc.exe.config
+C:\Users\idra14\source\repos\mvc\mvc\bin\Debug\mvc.exe
+C:\Users\idra14\source\repos\mvc\mvc\bin\Debug\mvc.pdb
+C:\Users\idra14\source\repos\mvc\mvc\obj\Debug\mvc.exe
+C:\Users\idra14\source\repos\mvc\mvc\obj\Debug\mvc.pdb
