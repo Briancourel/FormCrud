@@ -23,7 +23,7 @@ namespace Domain
 
         public bool ExistsCode(string code, Guid? excludeId = null)
         {
-            return _data.Any(p => p.Code.Equals(code, StringComparison.OrdinalIgnoreCase) && (!excludeId.HasValue || p.id != excludeId.Value) );
+            return _data.Any(p => p.Code.Equals(code, StringComparison.OrdinalIgnoreCase) && (!excludeId.HasValue || p.Id != excludeId.Value) );
         }
 
         public IEnumerable<Product> GetAll(string search = null)
@@ -40,12 +40,12 @@ namespace Domain
 
         public Product GetById(Guid id)
         {
-            return _data.FirstOrDefault(p => p.id == id);
+            return _data.FirstOrDefault(p => p.Id == id);
         }
 
         public void Update(Product p)
         {
-            var i = _data.FindIndex(x => x.id == p.id);
+            var i = _data.FindIndex(x => x.Id == p.Id);
             _data[i] = p;
         }
     }

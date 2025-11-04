@@ -19,7 +19,16 @@ namespace mvc
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new ProductForm());
+            
+            // Configurar el patrón MVC
+            var repository = new InMemoryProductRepository();
+            var view = new ProductForm();
+            var controller = new ProductController(repository, view);
+            
+            // Inicializar el controlador (conecta eventos y carga datos)
+            controller.Init();
+            
+            Application.Run(view);
         }
     }
 }

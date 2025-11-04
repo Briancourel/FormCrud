@@ -12,11 +12,11 @@ namespace Views
         //Eventos 
 
         event EventHandler AddRequested;
-        event EventHandler EditResquested;
-        event EventHandler DeleteResquested;
-        event EventHandler SaveResquested;
-        event EventHandler CancelResquested;
-        event EventHandler SearchResquested;
+        event EventHandler EditRequested;
+        event EventHandler DeleteRequested;
+        event EventHandler SaveRequested;
+        event EventHandler CancelRequested;
+        event EventHandler SearchRequested;
 
         //FeedBack
         Guid SelectedId();

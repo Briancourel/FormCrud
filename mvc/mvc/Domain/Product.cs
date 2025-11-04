@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace Domain
 {
-    class Product
+    public class Product
     {
-        public Guid id { get; set; } = Guid.NewGuid();
+        public Guid Id { get; set; } = Guid.NewGuid();
         public string Code { get; set; }
         public string Name { get; set; }
         public decimal Price { get; set; }
